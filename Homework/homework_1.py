@@ -55,18 +55,26 @@ def randomStep(x, y):
 	if y == 0:
 		allowed.remove("emptyY")
 		allowed.remove("yToX")
+	if x == x_max and y == y_max:
+		allowed = ["emptyX","emptyY"]
 	return allowed
 
 def isVisited(test_x, test_y, path):
 	for i in range(len(path)):
-		if(path[i] == [test_x, test_y]):
+		if path[i] == [test_x, test_y]:
 			return True
 	return False
 
 def runSearch(x, y):
+	global_count = 0
 	path = [[x,y]]
 	count = 1
 	while x != goal:
+		# Avoid loop causing due to random function
+		if global_count == 50:
+			return None, None, False
+		global_count += 1
+
 		test_x = x
 		text_y = y
 
@@ -79,16 +87,19 @@ def runSearch(x, y):
 		# Test if the path visited before
 		is_visited = isVisited(test_x, test_y, path)
 		# If false visit there
-		if(is_visited == False):
+		if is_visited == False:
 			x, y = eval(run_function)
 			path.append([x, y])
 			count += 1
 
-	return count, path
+	return count, path, True
 # Main
 if __name__ == "__main__":
-	for i in range(1,6):
-		count, path = runSearch(x, y)
-		print("Search number ",i," completed!")
-		print(path)
-		print(count," times turned!")
+	i = 1
+	while i <= 5:
+		count, path, is_ok = runSearch(x, y)
+		if is_ok:
+			print("Search number ",i," completed!")
+			print(path)
+			print(count," times turned!")
+			i += 1
