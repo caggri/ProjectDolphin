@@ -15,19 +15,17 @@ For homeworks, you can simply compile source codes and see the outputs.
 * Clone the project folder.
 * Start Node server:
 ```
-node Back-End/index.js
+$ node Back-End/index.js
 ```
 * Start React server:
 ```
-cd Front-End
+$ cd Front-End
 ```
 ```
-npm install
+$ npm install
 ```
 ```
-npm start
+$ npm start
 ```
 
-It's all done!
-
-Happy hacking :)
+It's all done! Happy hacking :)
