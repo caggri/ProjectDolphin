@@ -1,3 +1,15 @@
+"""
+We have 6 operators which are fullX() to fill the x jug, 
+				fullY() to fill the y jug, 
+				emptyX() to dump the x jug,
+				emptyY() to dump the y jug,
+				xToY() to pour the x jug to the y jug,
+ 				yToX() to pour the y jug to the x jug respectively.
+ Our algorithm chooses an operator randomly and apply that function to the current state,
+ while doing so it also checks whether the possible states are already visited to avoids irrelevant loops.
+ Our goal is to reach the (8,d) state starting from (0,0) (where d is don't care value).
+ The possible next states are at most 4 (branching factor).
+"""
 import random
 # Initial state of x and y
 x = 0
@@ -25,20 +37,20 @@ def emptyY(x, y):
 
 def xToY(x, y):
 	amount = x + y
-	if amount >=6:
-		y = 6
-		x = amount - 6
-	elif amount < 6:
+	if amount >=y_max: # y_max = 6
+		y = y_max
+		x = amount - y_max
+	elif amount < y_max:
 		x = 0
 		y = amount
 	return x, y
 
 def yToX(x, y):
 	amount = x + y
-	if amount >=10:
-		x = 10
-		y = amount - 10
-	elif amount < 10:
+	if amount >=x_max: # x_max = 10
+		x = x_max 
+		y = amount - x_max
+	elif amount < x_max:
 		x = amount
 		y = 0
 	return x, y
