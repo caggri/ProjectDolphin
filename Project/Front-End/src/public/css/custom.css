@@ -107,6 +107,11 @@ body {
 	font-size: 70% !important;
 	padding-left: 5px;
 }
+#main-table tr span {
+	font-size: 150% !important;
+	color: #6495ED;
+	font-weight: bold;
+}
 .black {
 	background-color: black !important;
 }

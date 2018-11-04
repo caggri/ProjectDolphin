@@ -21,9 +21,15 @@ $(function() {
 	let key;
 	// Change content as key pressed
 	$(document).keypress(function(e) {
-		key = e.key;
-		key = key.toUpperCase();
-		selected_td.append("<span>"+key+"</span>");
+		if(selected_td !== undefined) {
+			key = e.key;
+			key = key.toUpperCase();
+			selected_td.append("<span>"+key+"</span>");
+
+			selected_td = selected_td.closest('td').next();
+			$("td").removeClass("yellow");
+			$(selected_td).toggleClass("yellow");
+		}
 	});
 	// Click toggle yellow class
 	$(document).on("click", "#main-table td", function(e) {
