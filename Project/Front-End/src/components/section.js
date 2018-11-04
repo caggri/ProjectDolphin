@@ -37,11 +37,16 @@ class Section extends React.Component {
 	}
 	drawTable = (response) => {
 		// Render date
+		const [, day, month, year] = this.props.type;
 		let section_header = [];
 		section_header.push(
 			<div id="main-day">
 				<strong>{response.day}</strong>
 				<span> {response.date}</span>
+				<br></br>
+				<a id="answers" href='#' onClick={()=> window.open(`http://localhost:${NODE_PORT}/answers/${day}_${month}_${year}.jpeg`, "_blank")}>
+					Show the solution
+				</a>
 			</div>
 		);
 		this.setState({section_header: section_header});
@@ -63,7 +68,7 @@ class Section extends React.Component {
 				}
 				else {
 					children.push(
-						<td>{response.cells[cells]}</td>
+						<td className="w3-display-container"><a className="w3-display-topleft">{response.cells[cells]}</a></td>
 					);
 				}
 				cells++;
@@ -108,9 +113,7 @@ class Section extends React.Component {
 	componentDidUpdate = (prevProps) => {
 		// Get today's data
 		if(this.props.type === "today" && prevProps.type !== "today") {
-			this.setState({section_header: undefined});
-			this.setState({data: <h1>Today</h1>});
-			this.setState({clues: undefined});
+			this.fetchData("05","11","2018");
 		}
 		// Get old data
 		else {

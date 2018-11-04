@@ -14,4 +14,24 @@
 </noscript>
 <div id="root"></div>
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(function() {
+	let selected_td;
+	let key;
+	// Change content as key pressed
+	$(document).keypress(function(e) {
+		key = e.key;
+		key = key.toUpperCase();
+		selected_td.append("<span>"+key+"</span>");
+	});
+	// Click toggle yellow class
+	$(document).on("click", "#main-table td", function(e) {
+		selected_td = $(this);
+		// Delete all yellow classes	
+		$("td").removeClass("yellow");
+		$(this).toggleClass("yellow");
+	});
+});
+</script>
 </html>

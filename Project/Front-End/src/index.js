@@ -19,7 +19,6 @@ const old_puzzles = [
 	"31 10 2018\n",
 	"01 11 2018\n"
 ];
-
 // Render
 const react_root = document.getElementById("root");
 function renderReactDOM(section_state) {
@@ -35,8 +34,11 @@ function renderReactDOM(section_state) {
 			commands={{
 				"get-today": (args, print, runCommand) => {
 					console.log("Getting today's puzzle...");
-					renderReactDOM("today");
-					console.log("Today's puzzle fetched successfully!");
+					console.log("Trying to connect NYTIMES........");
+					setTimeout(function(){
+						renderReactDOM("today");
+						console.log("Today's puzzle fetched successfully!");
+				  	}, 3000);
 				},
 				"print-old": (args, print, runCommand) => {
 					print("Old puzzle list:");

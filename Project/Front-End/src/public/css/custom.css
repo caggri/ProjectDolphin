@@ -13,6 +13,9 @@ body {
 .clear {
 	clear: both;
 }
+.yellow {
+	background-color: yellow;
+}
 /* Dont find following lines */
 .gSZAyM {
 	min-height: 0;
@@ -81,6 +84,10 @@ body {
 #main-day {
 	font-size: 170%;
 	font-weight: normal;
+	margin-bottom: 5px;
+}
+#main-day #answers {
+	font-size: 50% !important;
 	margin-bottom: 10px;
 }
 #main-table {
@@ -93,11 +100,15 @@ body {
 	width: 84px;
 	height: 84px;
 	border: 2px solid gray;
-	vertical-align: top;
-	text-align: left;
+	text-align: center;
+	font-size: 150%;
+}
+#main-table tr a {
+	font-size: 70% !important;
+	padding-left: 5px;
 }
 .black {
-	background-color: black;
+	background-color: black !important;
 }
 #across, #down {
 	float: left;

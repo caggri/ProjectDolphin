@@ -3,6 +3,9 @@ const app = express();
 
 const PORT = 5000;
 
+// Static answers
+app.use('/answers', express.static('answers'));
+
 // Write headers
 app.use(function(req, res, next) {
 	res.header("Access-Control-Allow-Origin", "*");
