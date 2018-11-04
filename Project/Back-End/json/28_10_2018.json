@@ -1,0 +1,19 @@
+{
+	"day":"Sunday",
+	"date": "October 28, 2018",
+	"across": [
+		{"no": "1", "text": "Warning about an incoming projectile"},
+		{"no": "5", "text": "Rapper/producer behind Beats headphones"},
+		{"no": "6", "text": "Noble gas below xenon on the periodic table"},
+		{"no": "7", "text": "Setting for much of \"Finding Nemo\""},
+		{"no": "8", "text": "Looney Tunes character who says \"Th-th-th-that's all, folks!\""}
+	],
+	"down": [
+		{"no": "1", "text": "Harry's enemy at Hogwarts"},
+		{"no": "2", "text": "Milk dispenser"},
+		{"no": "3", "text": "Sound from a frog"},
+		{"no": "4", "text": "Country music star Chesney"},
+		{"no": "5", "text": "The shape of water?"}
+	],
+	"cells": ["-1","1","2","3","4","5","0","0","0","0","6","0","0","0","0","7","0","0","0","0","8","0","0","0","0"]
+}

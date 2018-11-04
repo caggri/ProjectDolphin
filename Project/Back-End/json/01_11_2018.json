@@ -1,0 +1,19 @@
+{
+	"day":"Thursday",
+	"date": "November 1, 2018",
+	"across": [
+		{"no": "1", "text": "Hollywood Walk of Fame symbol"},
+		{"no": "5", "text": "Sass, slangily"},
+		{"no": "6", "text": "Like the pool balls from 1 to 8"},
+		{"no": "7", "text": "Ish"},
+		{"no": "8", "text": "Dec. 25"}
+	],
+	"down": [
+		{"no": "1", "text": "Hurricane or blizzard"},
+		{"no": "2", "text": "Oklahoma city that's second in population"},
+		{"no": "3", "text": "See ya later"},
+		{"no": "4", "text": "With 6-Down, winners of the 2018 World Series"},
+		{"no": "6", "text": "See 4-Down"}
+	],
+	"cells": ["-1","1","2","3","4","-1","5","0","0","0","6","0","0","0","0","7","0","0","0","-1","8","0","0","0","-1"]
+}

@@ -1,69 +1,142 @@
 import React from "react";
 
+const NODE_PORT = 5000;
+
 class Section extends React.Component {
 	constructor(props) {
 		super(props);
-	}
-	getDate = (props) => {
-		if(props.type == "idle" || props.type == "today") {
-			let options = { year: 'numeric', month: 'long', day: 'numeric' };
-			return new Date().toLocaleDateString([],options);
-		}
-		// else is props.type == "old"
-		else {
-			// Fetch old date
+		this.state = {
+			section_header: undefined,
+			data: undefined,
+			clues: undefined
 		}
 	}
-	drawTable = (props) => {
+	systemIDLE = () => {
+		let idle =
+		<div>
+			<div className="section_box w3-card-4 margin_right_for_box">
+				<h1>Front-End</h1>
+				<h4>Ready!</h4>
+			</div>
+			<div className="section_box w3-card-4 margin_right_for_box">
+				<h1>Back-End</h1>
+				<h4>Ready!</h4>
+			</div>
+			<div className="section_box w3-card-4 margin_right_for_box">
+				<h1>Puzzles</h1>
+				<h4>There are 5 old puzzles available!</h4>
+			</div>
+			<div className="section_box w3-card-4">
+				<h1>Team</h1>
+				<h4>We have 5 contributors!</h4>
+			</div>
+		</div>;
+		this.setState({section_header: undefined});
+		this.setState({data: idle});
+		this.setState({clues: undefined});
+	}
+	drawTable = (response) => {
+		// Render date
+		let section_header = [];
+		section_header.push(
+			<div id="main-day">
+				<strong>{response.day}</strong>
+				<span> {response.date}</span>
+			</div>
+		);
+		this.setState({section_header: section_header});
+		// Render table
 		let table = [];
 		let children = [];
-
-		// empty table
-		if(props.type == "idle") {
+		let cells = 0;
+		for(let k = 0; k < 5; k++) {
 			for(let i = 0; i < 5; i++) {
-				children.length = 0;
-				for(let j = 0; j < 5; j++) {
-					children.push(<td></td>);
+				if(response.cells[cells] === "-1") {
+					children.push(
+						<td className="black">&nbsp;</td>
+					);
 				}
-				table.push(<tr>{children}</tr>);
+				else if(response.cells[cells] === "0") {
+					children.push(
+						<td>&nbsp;</td>
+					);
+				}
+				else {
+					children.push(
+						<td>{response.cells[cells]}</td>
+					);
+				}
+				cells++;
 			}
-			return table
+			table.push(<tr>{children}</tr>);
+			children = [];
 		}
-		// fetch today's puzzle
-		else if(props.type == "today") {
+		this.setState({data: <table id="main-table">{table}</table>});
+		// Render Clues
+		let clues = [];
+		let across = [];
+		let down = [];
+		let i = 0;
+		while(i < response.across.length) {
+			across.push(<p><strong>{response.across[i].no}.</strong> {response.across[i].text}</p>);
+			i++;
+		}
+		i = 0;
+		while(i < response.down.length) {
+			down.push(<p><strong>{response.down[i].no}.</strong> {response.down[i].text}</p>);
+			i++;
+		}
+		clues.push(<div id="across"><h1>ACROSS</h1>{across}</div>);
+		clues.push(<div id="down"><h1>DOWN</h1>{down}</div>);
+		this.setState({clues: clues});
+	}
 
+	fetchData = (day,month,year) => {
+		const url = `http://localhost:${NODE_PORT}/old/${day}/${month}/${year}`;
+		fetch(url)
+			.then(response => response.json())
+			.then(responseJSON => {
+				this.drawTable(responseJSON);
+			})
+			.catch(error => {
+				console.log("We couldn't find the puzzle you typed.");
+				console.log("To see available old puzzles simply tpye:");
+				console.log("$ print-old");
+			});
+	}
+
+	componentDidUpdate = (prevProps) => {
+		// Get today's data
+		if(this.props.type === "today" && prevProps.type !== "today") {
+			this.setState({section_header: undefined});
+			this.setState({data: <h1>Today</h1>});
+			this.setState({clues: undefined});
 		}
-		// get old puzzles
+		// Get old data
 		else {
-			
+			const [, prevDay, prevMonth, prevYear] = prevProps.type;
+			const [, day, month, year] = this.props.type;
+			if (day === undefined || month === undefined || year === undefined) {
+				console.log("Please use get-old command properly!");
+				console.log("Usage:\nget-old day month year");
+				console.log("Example:\nget-old 28 10 2018");
+			}
+			else if (prevDay !== day || prevMonth !== month || prevYear !== year) {
+				this.fetchData(day,month,year);
+			}
 		}
 	}
+
+	componentDidMount = () => {
+		this.systemIDLE();
+	}
+
 	render() {
 		return(
 			<section id="main-section">
-
-				<div id="main-section-table">
-					<h2>{this.getDate(this.props)}</h2>
-					<h4><strong>1A</strong> No clue</h4>
-					<table>{this.drawTable(this.props)}</table>
-				</div>
-
-				<div id="main-section-clues">
-					<div id="clues-across">
-						<h5><strong>ACROSS</strong></h5>
-						<ul>
-							<li>1. No clue</li>
-						</ul>
-					</div>
-
-					<div id="clues-down">
-						<h5><strong>DOWN</strong></h5>
-						<ul>
-							<li>1. No clue</li>
-						</ul>
-					</div>
-
-				</div>
+				{this.state.section_header}
+				{this.state.data}
+				{this.state.clues}
 				<div className="clear"></div>
 			</section>
 		);

@@ -13,18 +13,12 @@ import "./public/css/custom.css";
 
 // Globals
 const old_puzzles = [
-	"12.10.2018",
-	"13.10.2018"
-]
-const _12_10_18 = {
-	cells: [
-		-1,1,2,3,4,
-		 5,0,0,0,0,
-		 6,0,0,0,0,
-		 7,0,0,0,0,
-		 8,0,0,0,-1
-	]
-}
+	"28 10 2018\n",
+	"29 10 2018\n",
+	"30 10 2018\n",
+	"31 10 2018\n",
+	"01 11 2018\n"
+];
 
 // Render
 const react_root = document.getElementById("root");
@@ -35,26 +29,32 @@ function renderReactDOM(section_state) {
 		<Section type={section_state} />
 		<Terminal
 			hideTopBar = {true}
-			allowTabs = {false}
+			allowTabs = {true}
 			startState = {'maximised'}
-			style={{ fontWeight: "bold", fontSize: "1em", height: "250px" }}
+			style={{ fontWeight: "bold", fontSize: "1em", height: "350px"}}
 			commands={{
 				"get-today": (args, print, runCommand) => {
-					print("Getting today's puzzle...");
+					console.log("Getting today's puzzle...");
 					renderReactDOM("today");
-					print("Today's puzzle fetched successfully!");
+					console.log("Today's puzzle fetched successfully!");
+				},
+				"print-old": (args, print, runCommand) => {
+					print("Old puzzle list:");
+					print(old_puzzles);
+					print("You can run an old puzzle by typing:");
+					print("get-old 28 10 2018");
 				},
 				"get-old": (args, print, runCommand) => {
-					print("Old puzzle list:");
-					print(`${old_puzzles}`);
-				},
+					renderReactDOM(args);
+				}
 			}}
 			descriptions={{
 				show: "Shows the greeting message",
 				clear: "Clears the screen",
 				help: "Lists all the commands and shows their explanations",
 				"get-today": "This command gets the today's puzzle",
-				"get-old": "This command gets the old puzzles"
+				"print-old": "This command gets the list of old puzzles",
+				"get-old": "This command gets a specific old puzzle"
 			}}
 			msg='Welcome to Project Dolphin. To get help type: help'
 		/>

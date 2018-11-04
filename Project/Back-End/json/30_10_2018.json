@@ -1,0 +1,19 @@
+{
+	"day":"Tuesday",
+	"date": "October 30, 2018",
+	"across": [
+		{"no": "1", "text": "One of the Three Bears of fairytaledom"},
+		{"no": "5", "text": "Pastoral Kenyan tribe known for its extreme average height"},
+		{"no": "6", "text": "Dual degree for physicians"},
+		{"no": "7", "text": "Spiked clubs for knights"},
+		{"no": "8", "text": "Damage"}
+	],
+	"down": [
+		{"no": "1", "text": "Palindromic lady"},
+		{"no": "2", "text": "Pet adoption org."},
+		{"no": "3", "text": "HBO's \"Real Time With Bill ___\""},
+		{"no": "4", "text": "Helpful things"},
+		{"no": "5", "text": "\"Delicious!\" ... and a hint to every Across answer in the puzzle"}
+	],
+	"cells": ["-1","1","2","3","4","5","0","0","0","0","6","0","0","0","0","7","0","0","0","0","-1","8","0","0","-1"]
+}

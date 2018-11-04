@@ -1,0 +1,19 @@
+{
+	"day":"Monday",
+	"date": "October 29, 2018",
+	"across": [
+		{"no": "1", "text": "Stir-fry pan"},
+		{"no": "4", "text": "What haunted houses try to do"},
+		{"no": "6", "text": "Halloween purchase"},
+		{"no": "7", "text": "Aunt of Prince William and Prince Harry"},
+		{"no": "8", "text": "Back end"}
+	],
+	"down": [
+		{"no": "1", "text": "\"___ Get Away?\" (Southwest ad tagline)"},
+		{"no": "2", "text": "Get takeout for example"},
+		{"no": "3", "text": "Lock opener"},
+		{"no": "4", "text": "Frankenstein's monster had one on his forehead"},
+		{"no": "5", "text": "Part of a Mr.Peanut costume"}
+	],
+	"cells": ["-1","-1","1","2","3","4","5","0","0","0","6","0","0","0","0","7","0","0","0","-1","8","0","0","0","-1"]
+}

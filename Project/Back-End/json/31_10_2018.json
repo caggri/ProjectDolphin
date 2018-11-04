@@ -1,0 +1,19 @@
+{
+	"day":"Wednesday",
+	"date": "October 31, 2018",
+	"across": [
+		{"no": "1", "text": "Car fuel"},
+		{"no": "4", "text": "1-10, for example"},
+		{"no": "6", "text": "U.S./Mexico/Canada pact revised in 2018"},
+		{"no": "7", "text": "Proposal"},
+		{"no": "8", "text": "Apt rhyme of \"Cheers\"!"}
+	],
+	"down": [
+		{"no": "1", "text": "Politician's big mistake"},
+		{"no": "2", "text": "Make slight changes to"},
+		{"no": "3", "text": "Longtime retail giant that recently filed for bankruptcy"},
+		{"no": "4", "text": "Sort of wine drinker who might ask \"Do you detect stonefruits and smoked cedar?\""},
+		{"no": "5", "text": "Sidewalk eatery"}
+	],
+	"cells": ["-1","-1","1","2","3","4","5","0","0","0","6","0","0","0","0","7","0","0","0","0","8","0","0","0","0"]
+}
