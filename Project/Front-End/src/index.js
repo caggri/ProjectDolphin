@@ -33,8 +33,8 @@ function renderReactDOM(section_state) {
 			style={{ fontWeight: "bold", fontSize: "1em", height: "350px"}}
 			commands={{
 				"get-today": (args, print, runCommand) => {
-					console.log("Getting today's puzzle...");
-					console.log("Trying to connect NYTIMES........");
+					console.log("Getting today's puzzle!");
+					console.log("Trying to connect NYTIMES...");
 					setTimeout(function(){
 						renderReactDOM("today");
 						console.log("Today's puzzle fetched successfully!");
