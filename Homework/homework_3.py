@@ -1,9 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Fri Oct 26 17:51:03 2018
-@author: caggri, semih
-"""
+
 import random
 import heapq
 import collections
