@@ -1,3 +1,23 @@
+"""
+Project Dolphin
+----------------
+Mehmet Ali Karakamış
+Semih Teker
+Çağrı Bayram
+Burak Yaşar
+Berk Türk
+
+This homework was done based on this resource below
+https://github.com/tsoding/kdtree-in-python
+which was built in Python2 and also kdtree partition was done such that divison lines go throgh
+the points. We inverted the code to the Python3 and changed its structure so that our partition on
+kdtree divides the areas by going through the middle of points(between the points)
+instead of going over them
+In our resource kd-tree was built by taking points as the nodes(root and child), we changed this
+structure such that our tree takes the intersection points where the lines intersect according to
+our division
+"""
+
 import math
 import pprint
 
@@ -18,20 +38,6 @@ def distance(point1, point2):
 
 	return math.sqrt(dx * dx + dy * dy)
 
-"""
-def closest_point(all_points, new_point):
-	best_point = None
-	best_distance = None
-
-	for current_point in all_points:
-		current_distance = distance(new_point, current_point)
-
-		if best_distance is None or current_distance < best_distance:
-			best_distance = current_distance
-			best_point = current_point
-
-	return best_point
-"""
 
 def closer_distance(pivot, p1, p2):
 	if p1 is None:
