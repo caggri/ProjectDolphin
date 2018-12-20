@@ -1,0 +1,20 @@
+{
+	"day" : "Monday",
+	"date" : "Dec 17, 2018",
+	"across": [
+		{"no": "1", "text": "Pants for a male stripper"},
+		{"no": "6", "text": "\"How fast does a ___ have to run before it looks gray?\": Demetri Martin"},
+		{"no": "7", "text": "Macaroni shape"},
+		{"no": "8", "text": "Entertainer at a kid's birthday party"},
+		{"no": "9", "text": "H, on a faucet"}
+		],
+	"down": [
+		{"no": "1", "text": "Language of Prague"},
+		{"no": "2", "text": "Opening word after picking up the phone"},
+		{"no": "3", "text": "Monastery head"},
+		{"no": "4", "text": "Front of a ship"},
+		{"no": "5", "text": "Cut, as lumber"}
+		],
+	"cells" :  ["1","2","3","4","5","6","0","0","0","0","7","0","0","0","0","8","0","0","0","0","9","0","0","-1","-1"],
+	"answers": ["C","H","A","P","S","Z","E","B","R","A","E","L","B","O","W","C","L","O","W","N","H","O","T","-1","-1"]
+}

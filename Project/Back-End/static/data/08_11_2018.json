@@ -1,0 +1,20 @@
+{
+	"day":"Thursday",
+	"date": "November 8, 2018",
+	"across": [
+		{"no": "1", "text": "Polling bias"},
+		{"no": "5", "text": "Blue ___ political phenomenon"},
+		{"no": "6", "text": "Took a nap"},
+		{"no": "7", "text": "Blue ___(beer)"},
+		{"no": "8", "text": "Fitting name for a Dalmatian"}
+	],
+	"down": [
+		{"no": "1", "text": "Fly like an eagle"},
+		{"no": "2", "text": "Instrument that creates a buzzing noise"},
+		{"no": "3", "text": "One of five in a pentathlon"},
+		{"no": "4", "text": "Get married to"},
+		{"no": "6", "text": "Private Twitter conversations, for short"}
+	],
+	"cells": ["-1","1","2","3","4","-1","5","0","0","0","6","0","0","0","0","7","0","0","0","-1","8","0","0","0","-1"],
+	"answers": ["-1","S","K","E","W","-1","W","A","V","E","D","O","Z","E","D","M","O","O","N","-1","S","P","O","T","-1"]
+}
