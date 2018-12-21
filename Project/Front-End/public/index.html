@@ -4,8 +4,12 @@
 	<meta charset="utf-8">
 	<link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv='cache-control' content='no-cache'>
+	<meta http-equiv="expires" content="-1">
+	<meta http-equiv='pragma' content='no-cache'>
 	<meta name="theme-color" content="#000000">
 	<link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<title>Project Dolphin</title>
 </head>
 <body>
@@ -14,21 +18,34 @@
 </noscript>
 <div id="root"></div>
 </body>
+
+<!-- Custom Javascript with JQuery-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
 $(function() {
 	let selected_td;
 	let key;
+
+	let text;
+	let split_span;
 	// Change content as key pressed
 	$(document).keypress(function(e) {
 		if(selected_td !== undefined) {
 			key = e.key;
 			key = key.toUpperCase();
-			selected_td.append("<span>"+key+"</span>");
-
-			selected_td = selected_td.closest('td').next();
-			$("td").removeClass("yellow");
-			$(selected_td).toggleClass("yellow");
+			text = selected_td.html();
+			if(text.search("span") === -1) {
+				selected_td.append("<span>"+key+"</span>");
+			}
+			else if(text.search("span") !== -1 && key=="DELETE") {
+				split_span = selected_td.html().split("<span>");
+				selected_td.html(split_span[0]);
+			}
+			else if(text.search("span") !== -1) {
+				split_span = selected_td.html().split("<span>");
+				selected_td.html(split_span[0]);
+				selected_td.append("<span>"+key+"</span>");
+			}
 		}
 	});
 	// Click toggle yellow class
@@ -40,4 +57,5 @@ $(function() {
 	});
 });
 </script>
+
 </html>

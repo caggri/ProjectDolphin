@@ -10,19 +10,12 @@ body {
 	width: 100%;
 	font-size: 17px;
 }
-.clear {
-	clear: both;
-}
-.yellow {
-	background-color: yellow;
-}
+.clear { clear: both; }
+.yellow { background-color: yellow; }
+.black { background-color: black !important; }
 /* Dont find following lines */
-.gSZAyM {
-	min-height: 0;
-}
-.dMFuoo {
-	overflow: hidden;
-}
+.gSZAyM { min-height: 0; }
+.dMFuoo { overflow: hidden; }
 /* ==========
 2. Header
 ============= */
@@ -38,12 +31,14 @@ body {
 3. Section
 ============= */
 #main-section {
-	max-width: 1152px;
-	margin: 0 auto;
-	padding: 2% 0;
+	padding: 2% 5%;
 }
 /* If system is idle */
-.section_box {
+#display-idle {
+	max-width: 1152px;
+	margin: 0 auto;
+}
+.section-box {
 	float: left;
 	width: 250px;
 	height: 150px;
@@ -52,46 +47,44 @@ body {
 	background-repeat: no-repeat;
 	background-size: 100px;
 }
-.section_box h1 {
+.section-box h1 {
 	font-size: 130%;
 	font-weight: bold;
 }
-.section_box h4 {
+.section-box h4 {
 	width: 150px;
 	color: white;
 	font-size: 90%;
 }
-.section_box:nth-child(1) {
+.section-box:nth-child(1) {
 	background-color: rgba(37,180,237,0.7);
 	background-image: url("../img/front_server.svg");
 }
-.section_box:nth-child(2) {
+.section-box:nth-child(2) {
 	background-color: rgba(235,136,0,0.7);
 	background-image: url("../img/back_server.svg");
 }
-.section_box:nth-child(3) {
+.section-box:nth-child(3) {
 	background-color: rgba(207,51,42,0.7);
 	background-image: url("../img/count_puzzle.svg");
 }
-.section_box:nth-child(4) {
+.section-box:nth-child(4) {
 	background-color: rgba(35,152,68,0.7);
 	background-image: url("../img/contributor.svg");
 }
-.margin_right_for_box {
+.margin-right-for-box {
 	margin-right: 50.6px;
 }
-/* If system draws table */
-#main-day {
-	font-size: 170%;
-	font-weight: normal;
-	margin-bottom: 5px;
+/* If system draws a table */
+#display-table {
+	float: left;
+	width: 30%;
 }
-#main-day #answers {
-	font-size: 50% !important;
-	margin-bottom: 10px;
+#show-date {
+	font-size: 160%;
+	color: #666;
 }
 #main-table {
-	float: left;
 	width: 420px;
 	border-collapse: collapse;
 	border: 3px solid black;
@@ -101,33 +94,43 @@ body {
 	height: 84px;
 	border: 2px solid gray;
 	text-align: center;
-	font-size: 150%;
 }
 #main-table tr a {
-	font-size: 70% !important;
+	font-size: 100%;
 	padding-left: 5px;
 }
 #main-table tr span {
-	font-size: 150% !important;
+	font-size: 250%;
 	color: #6495ED;
 	font-weight: bold;
 }
-.black {
-	background-color: black !important;
+/* Clues */
+#display-clues {
+	float: left;
+	width: 40%;
 }
 #across, #down {
 	float: left;
-	width: 336px;
-	margin-left: 30px;
+	width: 50%;
 }
 #across h1, #down h1 {
-	margin: 0 0 15px 0;
-	padding: 0;
 	font-size: 110%;
 	font-weight: bold;
+	color: #6495ED;
 }
 #across p, #down p {
 	margin: 0;
 	padding: 2.5px 0;
 	font-size: 95%;
+}
+/* Solution */
+#display-solution {
+	float: left;
+	width: 30%;
+	text-align: center;
+}
+#solution_img {
+	margin-top: 20px;
+	padding-left: 20px;
+	width: 450px;
 }

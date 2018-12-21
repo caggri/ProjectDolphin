@@ -6,6 +6,7 @@
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
     "react-scripts": "2.0.5",
+    "register-service-worker": "^1.5.2",
     "terminal-in-react": "^4.3.0"
   },
   "scripts": {
