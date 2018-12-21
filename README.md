@@ -27,5 +27,14 @@ $ npm install
 ```
 $ npm start
 ```
+### Crawler
+* Crawler needs Google Chrome. Download the suitable ChromeDriver from here http://chromedriver.chromium.org
+* Specify the path of ChromeDriver in line 161 in crawler.py
+
+### Dependencies
+*Selenium
+*lxml
+
+
 
 It's all done! Happy hacking :)
