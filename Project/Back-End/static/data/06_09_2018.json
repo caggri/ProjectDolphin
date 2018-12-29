@@ -1,0 +1,20 @@
+{
+	"day":"Thursday",
+	"date": "September 06, 2018",
+	"across": [
+		{"no": "1", "text": "No longer in fashion"},
+		{"no": "6", "text": "Drive forward"},
+		{"no": "7", "text": "Hoops-centric channel"},
+		{"no": "8", "text": "Hit song from the past"},
+		{"no": "9", "text": "Many users of the e-cigarette Juul, controversially"}
+	],
+	"down": [
+		{"no": "1", "text": "___ grigio(wine)"},
+		{"no": "2", "text": "Walk at a slow relax, relaxed pace"},
+		{"no": "3", "text": "♠️"},
+		{"no": "4", "text": "Take effect"},
+		{"no": "5", "text": "Helpers in Santa's workshop"}
+	],
+	"cells":   ["1","2","3","4","5","6","0","0","0","0","7","0","0","0","0","8","0","0","0","0","9","0","0","0","0"],
+	"answers": ["P","A","S","S","E","I","M","P","E","L","N","B","A","T","V","O","L","D","I","E","T","E","E","N","S"]
+}

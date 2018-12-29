@@ -1,0 +1,20 @@
+{
+	"day":"Tuesday",
+	"date": "October 18, 2016",
+	"across": [
+		{"no": "1", "text": "Los Angeles's region, for short"},
+		{"no": "6", "text": "\"Allegory of the cave\" philosopher"},
+		{"no": "7", "text": "Puff ___(snake)"},
+		{"no": "8", "text": "Aired episodes of \"Friends,\" now"},
+		{"no": "9", "text": "Krispy ___ donuts"}
+	],
+	"down": [
+		{"no": "1", "text": "What's created by striking flint and steel together"},
+		{"no": "2", "text": "More antique"},
+		{"no": "3", "text": "Higly-trained group️"},
+		{"no": "4", "text": "First-string players"},
+		{"no": "5", "text": "Michaels who helms \"Saturday Night Live\""}
+	],
+	"cells":   ["1","2","3","4","5","6","0","0","0","0","7","0","0","0","0","8","0","0","0","0","9","0","0","0","0"],
+	"answers": ["S","O","C","A","L","P","L","A","T","O","A","D","D","E","R","R","E","R","A","N","K","R","E","M","E"]
+}

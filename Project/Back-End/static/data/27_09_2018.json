@@ -1,0 +1,20 @@
+{
+	"day": "Thursday",
+	"date": "September 27, 2018",
+	"across": [
+		{"no": "1", "text": "Piece of beacon"},
+		{"no": "6", "text": "Brooklyn,s Brclays Center, for one"},
+		{"no": "7", "text": "Some rides from the airport"},
+		{"no": "8", "text": "Foursome for a car"},
+		{"no": "9", "text": "New York Times section"}
+	],
+	"down": [
+		{"no": "1", "text": "Seasons, as a French fries"},
+		{"no": "2", "text": "\"Go ahead, have some!\""},
+		{"no": "3", "text": "Prepare, as beans in Mexican cuisine"},
+		{"no": "4", "text": "Computer company that sponsors the world's largest high school science fair"},
+		{"no": "5", "text": "Old news"}
+	],
+	"cells":   ["1","2","3","4","5","6","0","0","0","0","7","0","0","0","0","8","0","0","0","0","9","0","0","0","0"],
+	"answers": ["S","T","R","I","P","A","R","E","N","A","L","Y","F","T","S","T","I","R","E","S","S","T","Y","L","E"]
+}

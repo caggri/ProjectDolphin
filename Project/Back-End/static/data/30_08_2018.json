@@ -1,0 +1,20 @@
+{
+	"day": "Thursday",
+	"date": "August 30, 2018",
+	"across": [
+		{"no": "1", "text": "Step on, as a bug"},
+		{"no": "6", "text": "\"Hungry, hungry\" game animal"},
+		{"no": "7", "text": "Enjoy immensely"},
+		{"no": "8", "text": "Make amends"},
+		{"no": "9", "text": "Captain, colonel and corporal"}
+	],
+	"down": [
+		{"no": "1", "text": "Remove the wool from"},
+		{"no": "2", "text": "Sporty Mazda model"},
+		{"no": "3", "text": "Supermodel Kate who has appeared three times on the Sports Illustrated Swimsuit cover"},
+		{"no": "4", "text": "Courage and determination"},
+		{"no": "5", "text": "Cross one's fingers"}
+	],
+	"cells":   ["1","2","3","4","5","6","0","0","0","0","7","0","0","0","0","8","0","0","0","0","9","0","0","0","0"],
+	"answers": ["S","M","U","S","H","H","I","P","P","O","E","A","T","U","P","E","A","T","O","N","R","A","N","K","S"]
+}

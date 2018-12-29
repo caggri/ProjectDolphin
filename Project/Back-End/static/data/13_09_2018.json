@@ -1,0 +1,20 @@
+{
+	"day":"Thursday",
+	"date": "September 13, 2018",
+	"across": [
+		{"no": "1", "text": "Wells Fargo competitor"},
+		{"no": "6", "text": "Showers affection (on)"},
+		{"no": "7", "text": "list inclueded with a board game"},
+		{"no": "8", "text": "Naomi ___, victor over Serena Williams in the 2018 U.S. Open final"},
+		{"no": "9", "text": "Like a pigsty"}
+	],
+	"down": [
+		{"no": "1", "text": "Largely bygone data storage medium"},
+		{"no": "2", "text": "It's up for grabs in the 2018 midterms"},
+		{"no": "3", "text": "Books of maps️"},
+		{"no": "4", "text": "Looks for"},
+		{"no": "5", "text": "Component of the SAT that became optional in 2016"}
+	],
+	"cells":   ["1","2","3","4","5","6","0","0","0","0","7","0","0","0","0","8","0","0","0","0","9","0","0","0","0"],
+	"answers": ["C","H","A","S","E","D","O","T","E","S","R","U","L","E","S","O","S","A","K","A","M","E","S","S","Y"]
+}

@@ -1,0 +1,20 @@
+{
+	"day": "Friday",
+	"date": "December 12, 2014",
+	"across": [
+		{"no": "1", "text": "Adorable one"},
+		{"no": "5", "text": "___-com (movie genre)"},
+		{"no": "6", "text": "Profound difference in option"},
+		{"no": "8", "text": "Eco-friendly lightbulb"},
+		{"no": "9", "text": "Board meeting attendees, informally"}
+	],
+	"down": [
+		{"no": "1", "text": "The seasons or the phases of the moon, e.g."},
+		{"no": "2", "text": "Commerce"},
+		{"no": "3", "text": "What Apple's mobile/tablet devices run on️"},
+		{"no": "4", "text": "Awards show hosted in 2014 by Seth Meyers"},
+		{"no": "7", "text": "Bad spell"}
+	],
+	"cells":   ["1","0","2","3","4","0","-1","5","0","0","6","7","0","0","0","8","0","0","-1","0","9","0","0","0","0"],
+	"answers": ["C","U","T","I","E","Y","-1","R","O","M","C","H","A","S","M","L","E","D","-1","Y","E","X","E","C","S"]
+}

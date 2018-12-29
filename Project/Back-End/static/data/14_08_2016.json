@@ -1,0 +1,20 @@
+{
+	"day":"Sunday",
+	"date": "August 14, 2016",
+	"across": [
+		{"no": "1", "text": "Reads as a bar code"},
+		{"no": "6", "text": "Blender setting"},
+		{"no": "7", "text": "Michelle with an acclaimed 2016 convention speech"},
+		{"no": "8", "text": "Freedom fighter, e.g."},
+		{"no": "9", "text": "Ta-Nehisi Coates' \"The Case for Reperations,\", e.g."}
+	],
+	"down": [
+		{"no": "1", "text": "Mold reproductive part "},
+		{"no": "2", "text": "8, 27 and 64"},
+		{"no": "3", "text": "Yemen men, e.g.️"},
+		{"no": "4", "text": "Where Hercules slew the lion, in myth"},
+		{"no": "5", "text": "Posturepedic mattress maker"}
+	],
+	"cells":   ["1","2","3","4","5","6","0","0","0","0","7","0","0","0","0","8","0","0","0","0","9","0","0","0","0"],
+	"answers": ["S","C","A","N","S","P","U","R","E","E","O","B","A","M","A","R","E","B","E","L","E","S","S","A","Y"]
+}

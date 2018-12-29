@@ -1,0 +1,20 @@
+{
+	"day": "Thursday",
+	"date": "September 20, 2018",
+	"across": [
+		{"no": "1", "text": "Rise to one's feet"},
+		{"no": "6", "text": "More likely to burn at the beach"},
+		{"no": "7", "text": "Old-school gaming company"},
+		{"no": "8", "text": "S Shape"},
+		{"no": "9", "text": "Awards won this week by John Mulaney and Bill Harder"}
+	],
+	"down": [
+		{"no": "1", "text": "It's out of this world"},
+		{"no": "2", "text": "Actor Changing of \"21 Jump Street\""},
+		{"no": "3", "text": "Function on the Clock app"},
+		{"no": "4", "text": "On the skittish side"},
+		{"no": "5", "text": "Uses a towel post-shower"}
+	],
+	"cells":   ["1","2","3","4","5","6","0","0","0","0","7","0","0","0","0","8","0","0","0","0","9","0","0","0","0"],
+	"answers": ["S","T","A","N","D","P","A","L","E","R","A","T","A","R","I","C","U","R","V","E","E","M","M","Y","S"]
+}
