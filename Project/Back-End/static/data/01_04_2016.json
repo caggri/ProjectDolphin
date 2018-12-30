@@ -1,0 +1,20 @@
+{
+	"day": "Friday",
+	"date": "April 01, 2016",
+	"across": [
+		{"no": "1", "text": "An A student has a high one, for short"},
+		{"no": "4", "text": "Saudi Arabian currency"},
+		{"no": "6", "text": "With 7-Across, exclamation much heard today"},
+		{"no": "7", "text": "See 6-Across"},
+		{"no": "8", "text": "N.F.L. scores"}
+	],
+	"down": [
+		{"no": "1", "text": "Some urban food cart offerings"},
+		{"no": "2", "text": "Aid for sandcastle builders"},
+		{"no": "3", "text": "\"___ fair in love and war\""},
+		{"no": "4", "text": "Transport for Huck and Jim"},
+		{"no": "5", "text": "Device with earbuds"}
+	],
+	"cells":   ["-1","-1","1","2","3","4","5","0","0","0","6","0","0","0","0","7","0","0","0","0","9","0","0","-1","-1"],
+	"answers": ["-1","-1","G","P","A","R","I","Y","A","L","A","P","R","I","L","F","O","O","L","S","T","D","S","-1","-1"]
+}

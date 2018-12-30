@@ -1,0 +1,20 @@
+{
+	"day": "Thursday",
+	"date": "February 04, 2016",
+	"across": [
+		{"no": "1", "text": "Communication device that beeps"},
+		{"no": "6", "text": "Get away from"},
+		{"no": "7", "text": "Time on the throne"},
+		{"no": "8", "text": "Something controlled remotely?"},
+		{"no": "9", "text": "Follows, as advice"}
+	],
+	"down": [
+		{"no": "1", "text": "Capital city of Western Australia"},
+		{"no": "2", "text": "Pain reliever brand"},
+		{"no": "3", "text": "False front"},
+		{"no": "4", "text": "Double- ___ sword"},
+		{"no": "5", "text": "Most Monopoly properties have six different ones"}
+	],
+	"cells":   ["1","2","3","4","5","6","0","0","0","0","7","0","0","0","0","8","0","0","0","0","9","0","0","0","0"],
+	"answers": ["P","A","G","E","R","E","L","U","D","E","R","E","I","G","N","T","V","S","E","T","H","E","E","D","S"]
+}
