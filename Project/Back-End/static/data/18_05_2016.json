@@ -1,0 +1,20 @@
+{
+	"day": "Wednesday",
+	"date": "May 18, 2016",
+	"across": [
+		{"no": "1", "text": "Like some ancient Mexican pyramids"},
+		{"no": "6", "text": "\"Set Fire to the Rain\" singer, 2011"},
+		{"no": "7", "text": "Response to a general question?"},
+		{"no": "8", "text": "Await with fear"},
+		{"no": "9", "text": "In disarray"}
+	],
+	"down": [
+		{"no": "1", "text": "Coated chocolate candy"},
+		{"no": "2", "text": "Love, love, love"},
+		{"no": "3", "text": "\"Oui\" and \"si\""},
+		{"no": "4", "text": "Criminal's \"aka\" name"},
+		{"no": "5", "text": "Geekish"}
+	],
+	"cells":   ["1","2","3","4","5","6","0","0","0","0","7","0","0","0","0","8","0","0","0","0","9","0","0","0","0"],
+	"answers": ["M","A","Y","A","N","A","D","E","L","E","N","O","S","I","R","D","R","E","A","D","M","E","S","S","Y"]
+}

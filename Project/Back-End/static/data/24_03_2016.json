@@ -1,0 +1,20 @@
+{
+	"day": "Thursday",
+	"date": "March 24, 2016",
+	"across": [
+		{"no": "1", "text": "Goatees grow on them"},
+		{"no": "6", "text": "\"When the ___ Breeks\" (Led Zeppelin song)"},
+		{"no": "7", "text": "From another planet"},
+		{"no": "8", "text": "They go down in the winter"},
+		{"no": "9", "text": "Entourage"}
+	],
+	"down": [
+		{"no": "1", "text": "Necklace fastener"},
+		{"no": "2", "text": "\"Wassup,\" more formally"},
+		{"no": "3", "text": "Princeton, Darthmouth, Columbia, etc."},
+		{"no": "4", "text": "Food, shelter, and clothing"},
+		{"no": "5", "text": "Fashion ___"}
+	],
+	"cells":   ["1","2","3","4","5","6","0","0","0","0","7","0","0","0","0","8","0","0","0","0","9","0","0","0","0"],
+	"answers": ["C","H","I","N","S","L","E","V","E","E","A","L","I","E","N","S","L","E","D","S","P","O","S","S","E"]
+}

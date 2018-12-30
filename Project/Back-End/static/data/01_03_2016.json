@@ -1,0 +1,20 @@
+{
+	"day": "Tuesday",
+	"date": "March 01, 2016",
+	"across": [
+		{"no": "1", "text": "___ Tuesday"},
+		{"no": "6", "text": "Smiley face with hearts for eyes, e.g"},
+		{"no": "7", "text": "Cracker spreads"},
+		{"no": "8", "text": "Admission of ineptitude"},
+		{"no": "9", "text": "Helper: Abbr."}
+	],
+	"down": [
+		{"no": "1", "text": "Tinting option once available on Instagram"},
+		{"no": "2", "text": "Amherst campus, briefly"},
+		{"no": "3", "text": "White House VIP"},
+		{"no": "4", "text": "Kick out"},
+		{"no": "5", "text": "Global conquest board game"}
+	],
+	"cells":   ["1","2","3","4","5","6","0","0","0","0","7","0","0","0","0","8","0","0","0","0","9","0","0","0","-1"],
+	"answers": ["S","U","P","E","R","E","M","O","J","I","P","A","T","E","S","I","S","U","C","K","A","S","S","T","-1"]
+}
