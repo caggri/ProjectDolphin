@@ -1,7 +1,7 @@
 import json, time
 
 def show_on_screen(word):
-    time.sleep(0.2)
+    time.sleep(0.01)
     data = {}
     data['state'] = [" ############################# " + word + " ############################# "]
     data['answer'] = [""]
@@ -10,11 +10,12 @@ def show_on_screen(word):
     print("#############################", word, "#############################" )
     return
 
+"""
 def remove_others(i, word_list, desired_word):
     for word in word_list[:]:
         if word[i] != desired_word[i]:
             word_list.remove(word)
-    time.sleep(0.2)
+    time.sleep(0.01)
     data = {}
     data['state'] = ["other words are removed from the list"]
     data['answer'] = [""]
@@ -26,23 +27,24 @@ def remove_others(i, word_list, desired_word):
 def test(cur_word, word_list, desired_word):
     for i in range(len(desired_word)):
         if desired_word[i] == cur_word[i]:
-            time.sleep(0.2)
+            time.sleep(0.01)
             data = {}
             data['state'] = [str(i) + "th index is the same: " + desired_word[i]]
             data['answer'] = [""]
             with open('static/state.json', 'w') as write_file:
                 json.dump(data, write_file)
             print(i, "th index is the same: ", desired_word[i])
-            #remove_others(i, word_list, desired_word)
+            remove_others(i, word_list, desired_word)
+"""
 
 def try_words(word_list, desired_word):
     for cur_word in word_list:
         if cur_word != desired_word:
             show_on_screen(cur_word)
-            test(cur_word, word_list, desired_word)
+            #test(cur_word, word_list, desired_word)
         else:
             show_on_screen(cur_word)
-            time.sleep(0.2)
+            time.sleep(0.01)
             data = {}
             data['state'] = ["I find the word: " + cur_word]
             data['answer'] = [cur_word]
@@ -57,7 +59,7 @@ def try_words(word_list, desired_word):
                 show_on_screen(cur_word)
             else:
                 show_on_screen(cur_word)
-                time.sleep(0.2)
+                time.sleep(0.01)
                 data = {}
                 data['state'] = ["I find the word: " + cur_word]
                 data['answer'] = [cur_word]
@@ -66,7 +68,7 @@ def try_words(word_list, desired_word):
                 print("*********** I find the word ***********")
                 return data['answer']
     else:
-        time.sleep(0.2)
+        time.sleep(0.01)
         data = {}
         data['state'] = ["NOT FOUND!"]
         data['answer'] = [""]

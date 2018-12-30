@@ -18,7 +18,7 @@ CORS(app)
 @app.route('/solve/<day>/<month>/<year>')
 def solve(day, month, year):
 
-	date = 'C:/Users/Asus/Desktop/demo2/static/data/' + day + '_' + month + '_' + year + '.json'
+	date = 'C:/Users/Asus/Desktop/Project/Back-End/static/data/' + day + '_' + month + '_' + year + '.json'
 	with open(date) as json_file:
 		data = json.load(json_file)
 
@@ -135,13 +135,13 @@ def solve(day, month, year):
 		i = i + 1
 	write_answer += "}"
 
-	time.sleep(0.2)
-	name = 'C:/Users/Asus/Desktop/demo2/static/'+day + '_' + month + '_' + year + 'answer.json'
+	time.sleep(0.01)
+	name = 'C:/Users/Asus/Desktop/Project/Back-end/static/'+day + '_' + month + '_' + year + 'answer.json'
 	file = open(name, "w")
 	file.write(write_answer)
 	file.close()
 
-	time.sleep(0.2)
+	time.sleep(0.01)
 	data = {}
 	data['state'] = ["DONE!"]
 	with open('static/state.json', 'w') as write_file:
@@ -155,7 +155,7 @@ def solve_one_word(clue, length, desired_word):
 	possible_words = []
 
 	possible_words.extend(datamuse(clue, length))
-	time.sleep(0.2)
+	time.sleep(0.01)
 	data = {}
 	data['state'] = ["... datamuse is added"]
 	data['answer'] = [""]
@@ -164,7 +164,7 @@ def solve_one_word(clue, length, desired_word):
 	#print("... datamuse is added")
 
 	possible_words.extend(google(clue, length))
-	time.sleep(0.2)
+	time.sleep(0.01)
 	data = {}
 	data['state'] = ["... google is added"]
 	data['answer'] = [""]
@@ -173,7 +173,7 @@ def solve_one_word(clue, length, desired_word):
 	#print("... google is added")
 
 	possible_words.extend(wikipedia(clue, length))
-	time.sleep(0.2)
+	time.sleep(0.01)
 	data = {}
 	data['state'] = ["... wikipedia is added"]
 	data['answer'] = [""]
@@ -181,8 +181,8 @@ def solve_one_word(clue, length, desired_word):
 		json.dump(data, write_file)
 	#print("... wikipedia is added")
 
-	#possible_words.extend(get_word_list(length))
-	time.sleep(0.2)
+	possible_words.extend(get_word_list(length))
+	time.sleep(0.01)
 	data = {}
 	data['state'] = ["... wordset is added"]
 	data['answer'] = [""]
@@ -191,7 +191,7 @@ def solve_one_word(clue, length, desired_word):
 	#print("... wordset is added")
 
 	#print(possible_words)
-	time.sleep(0.2)
+	time.sleep(0.01)
 	data = {}
 	data['state'] = ["... trying to solve ..."]
 	data['answer'] = [""]
