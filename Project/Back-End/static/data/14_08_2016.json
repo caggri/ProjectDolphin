@@ -1,12 +1,12 @@
 {
-	"day":"Sunday",
+	"day": "Sunday",
 	"date": "August 14, 2016",
 	"across": [
 		{"no": "1", "text": "Reads as a bar code"},
 		{"no": "6", "text": "Blender setting"},
 		{"no": "7", "text": "Michelle with an acclaimed 2016 convention speech"},
 		{"no": "8", "text": "Freedom fighter, e.g."},
-		{"no": "9", "text": "Ta-Nehisi Coates' \"The Case for Reperations,\", e.g."}
+		{"no": "9", "text": "Ta-Nehisi Coates' The Case for Reperations, e.g."}
 	],
 	"down": [
 		{"no": "1", "text": "Mold reproductive part "},

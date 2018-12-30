@@ -1,6 +1,6 @@
 {
-	"day":"Monday",
-	"date": "November 5, 2018",
+	"day": "Monday",
+	"date": "November 05, 2018",
 	"across": [
 		{"no": "1", "text": "Mixes in"},
 		{"no": "5", "text": "With 6-Across, campaign funds from anonymous donors"},
@@ -15,6 +15,6 @@
 		{"no": "4", "text": "In-flight magazine for Delta"},
 		{"no": "6", "text": "November and December: Abbr."}
 	],
-	"cells": ["-1","1","2","3","4","-1","5","0","0","0","6","0","0","0","0","7","0","0","0","-1","8","0","0","0","-1"],
+	"cells":   ["-1","1","2","3","4","-1","5","0","0","0","6","0","0","0","0","7","0","0","0","-1","8","0","0","0","-1"],
 	"answers": ["-1","A","D","D","S","-1","D","A","R","K","M","O","N","E","Y","O","R","C","A","-1","S","E","E","M","-1"]
 }

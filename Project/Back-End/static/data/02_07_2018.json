@@ -1,0 +1,102 @@
+{
+  "day": "Sunday",
+  "date": "July 2, 2018",
+  "across": [
+    {
+      "no": " 1 ",
+      "text": " Walk after an ankle sprain, say "
+    },
+    {
+      "no": " 5 ",
+      "text": " Sign when a TV studio is live  "
+    },
+    {
+      "no": " 7 ",
+      "text": " It creates a buzz in the music world "
+    },
+    {
+      "no": " 8 ",
+      "text": " River that lends its name to the second most populous country in the world "
+    },
+    {
+      "no": " 9 ",
+      "text": " The Big ___ (New Orleans) "
+    }
+  ],
+  "down": [
+    {
+      "no": " 1 ",
+      "text": " Mischievous Norse god "
+    },
+    {
+      "no": " 2 ",
+      "text": " Foolish "
+    },
+    {
+      "no": " 3 ",
+      "text": " Major Japanese automaker "
+    },
+    {
+      "no": " 4 ",
+      "text": " Very devout "
+    },
+    {
+      "no": " 6 ",
+      "text": " Pink, as cheeks "
+    }
+  ],
+  "cells": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "-1",
+    "5",
+    "0",
+    "0",
+    "0",
+    "0",
+    "7",
+    "0",
+    "0",
+    "0",
+    "0",
+    "8",
+    "0",
+    "0",
+    "0",
+    "0",
+    "-1",
+    "9",
+    "0",
+    "0",
+    "0"
+  ],
+  "answers": [
+    "L",
+    "I",
+    "M",
+    "P",
+    "-1",
+    "O",
+    "N",
+    "A",
+    "I",
+    "R",
+    "K",
+    "A",
+    "Z",
+    "O",
+    "O",
+    "I",
+    "N",
+    "D",
+    "U",
+    "S",
+    "-1",
+    "E",
+    "A",
+    "S",
+    "Y"
+  ]
+}

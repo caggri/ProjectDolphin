@@ -1,20 +1,20 @@
 {
-	"day":"Wednesday",
-	"date": "June 1, 2016",
+	"day": "Wednesday",
+	"date": "June 01, 2016",
 	"across": [
-		{"no": " 1 ", "text": " Energy "},
-		{"no": " 4 ", "text": " Five on a par four, e.g. "},
-		{"no": " 6 ", "text": " Bottom of a pond food chain "},
-		{"no": " 7 ", "text": " \"Light My Fire\" band, with \"the\" "},
-		{"no": " 8 ", "text": " Show on which Kate McKinnon impersonates Hillary Clinton "}
+		{"no": "1", "text": "Energy"},
+		{"no": "4", "text": "Five on a par four, e.g."},
+		{"no": "6", "text": "Bottom of a pond food chain"},
+		{"no": "7", "text": "\"Light My Fire\" band, with \"the\""},
+		{"no": "8", "text": "Show on which Kate McKinnon impersonates Hillary Clinton"}
 	],
 	"down": [
-		{"no": " 1 ", "text": " Preppy shirts "},
-		{"no": " 2 ", "text": " Goad "},
-		{"no": " 3 ", "text": " Find in an oyster "},
-		{"no": " 4 ", "text": " Scolding word to a dog "},
-		{"no": " 5 ", "text": " \"Sure thing!\" "}
+		{"no": "1", "text": "Preppy shirts"},
+		{"no": "2", "text": "Goad"},
+		{"no": "3", "text": "Find in an oyster"},
+		{"no": "4", "text": "Scolding word to a dog"},
+		{"no": "5", "text": "\"Sure thing!\""}
 	],
-	"cells": ["-1","1","2","3","-1","4", "0","0","0","5","6","0","0","0","0","7","0","0","0","0","-1","8","0","0","-1"],
-	"answers": ["-1","P","E","P","-1","B","O","G","E","Y","A","L","G","A","E","D","O","O","R","S","-1","S","N","L","-1"]
+	"cells":		["-1","1","2","3","-1","4", "0","0","0","5","6","0","0","0","0","7","0","0","0","0","-1","8","0","0","-1"],
+	"answers": 	["-1","P","E","P","-1","B","O","G","E","Y","A","L","G","A","E","D","O","O","R","S","-1","S","N","L","-1"]
 }

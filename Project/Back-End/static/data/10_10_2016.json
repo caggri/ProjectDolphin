@@ -1,0 +1,20 @@
+{
+	"day": "Monday",
+	"date": "October 10, 2016",
+	"across": [
+		{"no": "1", "text": "Hard-to-find guy in a crowd"},
+		{"no": "6", "text": "Killer whales"},
+		{"no": "7", "text": "Social ___"},
+		{"no": "8", "text": "Contest submission"},
+		{"no": "9", "text": "Dark blue shade"}
+	],
+	"down": [
+		{"no": "1", "text": "Bathroom door sign"},
+		{"no": "2", "text": "Basketball venue"},
+		{"no": "3", "text": "Samsung purchase (warning: no vowels)"},
+		{"no": "4", "text": "What the lactose intolerant avoid"},
+		{"no": "5", "text": "\"___, can you see ...\""}
+	],
+	"cells" :  ["1","2","3","4","-1","5","0","0","0","6","7","0","0","0","0","8","0","0","0","0","-1","9","0","0","0"],
+	"answers": ["W","O","R","D","-1","A","H","E","A","D","S","H","I","N","E","P","E","N","C","E","-1","Y","S","E","R"]
+}

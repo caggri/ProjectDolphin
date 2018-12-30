@@ -1,0 +1,20 @@
+{
+	"day": "Monday",
+	"date": "March 02, 2015",
+	"across": [
+		{"no": "1", "text": "One of journalism's five W's"},
+		{"no": "4", "text": "One of journalism's five W's"},
+		{"no": "5", "text": "Piles"},
+		{"no": "7", "text": "Fiery passion"},
+		{"no": "8", "text": "Midterms and finals"}
+	],
+	"down": [
+		{"no": "1", "text": "One of journalism's five W's"},
+		{"no": "2", "text": "Coin toss call"},
+		{"no": "3", "text": "Baked, so to speak"},
+		{"no": "4", "text": "One of journalism's five W's"},
+		{"no": "6", "text": "Sophs., in two years"}
+	],
+	"cells" :  ["1","2","3","4","-1","5","0","0","0","6","7","0","0","0","0","8","0","0","0","0","-1","9","0","0","0"],
+	"answers": ["W","O","R","D","-1","A","H","E","A","D","S","H","I","N","E","P","E","N","C","E","-1","Y","S","E","R"]
+}

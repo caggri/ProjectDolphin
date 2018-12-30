@@ -2,75 +2,19 @@
   "day": "Thursday",
   "date": "October 23, 2014",
   "across": [
-    {
-      "no": "1",
-      "text": "Chess piece"
-    },
-    {
-      "no": "6",
-      "text": "CAT scan alternative"
-    },
-    {
-      "no": "7",
-      "text": "Chess piece"
-    },
-    {
-      "no": "9",
-      "text": "Trendy boot brand"
-    },
-    {
-      "no": "10",
-      "text": "Fictional captain who said \"Thou damned whale!\""
-    }
+    {"no": "1", "text": "Chess piece"},
+    {"no": "6", "text": "CAT scan alternative"},
+    {"no": "7", "text": "Chess piece"}
+    {"no": "9", "text": "Trendy boot brand"},
+    {"no": "10", "text": "Fictional captain who said \"Thou damned whale!\""}
   ],
   "down": [
-    {
-      "no": "2",
-      "text": "Last Greek letter"
-    },
-    {
-      "no": "3",
-      "text": "Sought-after rock"
-    },
-    {
-      "no": "4",
-      "text": "Chess piece"
-    },
-    {
-      "no": "5",
-      "text": "Greenish-blue hue"
-    },
-    {
-      "no": "8",
-      "text": "\"This is the worst!\""
-    }
+    {"no": "2", "text": "Last Greek letter"},
+    {"no": "3", "text": "Sought-after rock"},
+    {"no": "4", "text": "Chess piece"},
+    {"no": "5", "text": "Greenish-blue hue"},
+    {"no": "8", "text": "\"This is the worst!\""}
   ],
-  "cells": [
-    "-1",
-    "1",
-    "2",
-    "3",
-    "4",
-    "5",
-    "-1",
-    "6",
-    "0",
-    "0",
-    "7",
-    "8",
-    "0",
-    "0",
-    "0",
-    "9",
-    "0",
-    "0",
-    "-1",
-    "0",
-    "10",
-    "0",
-    "0",
-    "0",
-    "-1"
-  ],
+  "cells":   ["-1","1","2","3","4","5","-1","6","0","0","7","8","0","0","0","9","0","0","-1","0","10","0","0","0","-1"],
   "answers": ["-1","R","O","O","K","A","-1","M","R","I","Q","U","E","E","N","U","G","G","-1","G","A","H","A","B","-1"]
 }

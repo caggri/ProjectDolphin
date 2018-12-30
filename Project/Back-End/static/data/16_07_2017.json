@@ -1,0 +1,76 @@
+{
+  "day": "Sunday",
+  "date": "July 16 2017",
+  "across": [
+    {
+      "no": " 1 ",
+      "text": " Public perception, so to speak "
+    },
+    {
+      "no": " 6 ",
+      "text": " Copy that" 
+    },
+    {
+      "no": " 7 ",
+      "text": " Faulkner's \"A Rose for ___ \""
+    },
+    {
+      "no": " 8 ",
+      "text": " 2008 Pixar film about a robot "
+    },
+    {
+      "no": " 9 ",
+      "text": " Villain's look of contempt "
+    }
+  ],
+  "down": [
+    {
+      "no": " 1 ",
+      "text": " Beers, slangily "
+    },
+    {
+      "no": " 2 ",
+      "text": " Citizen under Caesar "
+    },
+    {
+      "no": " 3 ",
+      "text": " Nimble "
+    },
+    {
+      "no": " 4 ",
+      "text": " \"In the ,\" in Italian "
+    },
+    {
+      "no": " 5 ",
+      "text": " Machine next to a washer "
+    }
+  ],
+  "cells": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "0",
+    "0",
+    "0",
+    "0",
+    "7",
+    "0",
+    "0",
+    "0",
+    "0",
+    "8",
+    "0",
+    "0",
+    "0",
+    "0",
+    "9",
+    "0",
+    "0",
+    "0",
+    "0"
+  ],
+  "answers": ["B","R","A","N","D","R","O","G","E","R","E","M","I","L","Y","W","A","L","L","E","S","N","E","E","R"]
+}

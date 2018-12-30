@@ -1,76 +1,20 @@
 {
   "day": "Friday",
-  "date": "October 2 2015",
+  "date": "October 02, 2015",
   "across": [
-    {
-      "no": " 1 ",
-      "text": " Apt rhyme for \"anticipate\" "
-    },
-    {
-      "no": " 6 ",
-      "text": " Third ___ (another name for Nazi Germany) "
-    },
-    {
-      "no": " 7 ",
-      "text": " Part of NPR "
-    },
-    {
-      "no": " 8 ",
-      "text": " Appliances with racks "
-    },
-    {
-      "no": " 9 ",
-      "text": " Hunk of cheese "
-    }
+    {"no": "1", "text": "Apt rhyme for \"anticipate\""},
+    {"no": "6", "text": "Third ___ (another name for Nazi Germany)"},
+    {"no": "7", "text": "Part of NPR"},
+    {"no": "8", "text": "Appliances with racks"},
+    {"no": "9", "text": "Hunk of cheese"}
   ],
   "down": [
-    {
-      "no": " 1 ",
-      "text": " ↓, e.g. "
-    },
-    {
-      "no": " 2 ",
-      "text": " Constantly change lanes "
-    },
-    {
-      "no": " 3 ",
-      "text": " Assisted "
-    },
-    {
-      "no": " 4 ",
-      "text": " Sugar coating? "
-    },
-    {
-      "no": " 5 ",
-      "text": " \"All ___ in favor ...\" "
-    }
+    {"no": "1", "text": "↓, e.g."},
+    {"no": "2", "text": "Constantly change lanes"},
+    {"no": "3", "text": "Assisted"},
+    {"no": "4", "text": "Sugar coating?"},
+    {"no": "5", "text": "\"All ___ in favor ...\""}
   ],
-  "cells": [
-    "1",
-    "2",
-    "3",
-    "4",
-    "5",
-    "6",
-    "0",
-    "0",
-    "0",
-    "0",
-    "7",
-    "0",
-    "0",
-    "0",
-    "0",
-    "8",
-    "0",
-    "0",
-    "0",
-    "0",
-    "9",
-    "0",
-    "0",
-    "0",
-    "0"
-  ],
+  "cells":   ["1","2","3","4","5","6","0","0","0","0","7","0","0","0","0","8","0","0","0","0","9","0","0","0","0"],
   "answers": ["A","W","A","I","T","R","E","I","C","H","R","A","D","I","O","O","V","E","N","S","W","E","D","G","E"]
 }
