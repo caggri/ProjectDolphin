@@ -103,8 +103,3 @@ python server.py
 ```
 deactivate
 ```
-
-
-
-
-<!-- Bunu nereye koyacağımı bilemedim > It's all done! Happy hacking :)-->
